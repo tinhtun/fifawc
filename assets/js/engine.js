@@ -63,7 +63,7 @@ function render(matchResults) {
         var td0 = $("<td/>").html(myanmarNumbers(matchSequence, "my")).attr("width", "5%");
         var leftTeam = zawgyi.country[fixtures[i].p1] ? zawgyi.country[fixtures[i].p1] : fixtures[i].p1;
         var td1 = $("<td/>").attr('class', team1).html(flag1 + leftTeam).attr("width", "25%");
-        var result = matchResults[matchId].finished ? matchResults[matchId].home_result + " - " + matchResults[matchId].away_result : "";
+        var result = matchResults[matchId].finished ? myanmarNumbers(matchResults[matchId].home_result, "my") + " - " + myanmarNumbers(matchResults[matchId].away_result, "my") : "";
         var tdResult = $("<td/>").html(result).attr("width", "25%");
         var rightTeam = zawgyi.country[fixtures[i].p2] ? zawgyi.country[fixtures[i].p2] : fixtures[i].p2;
         var td2 = $("<td/>").attr('class', team2).html(flag2 + rightTeam).attr("width", "25%");
