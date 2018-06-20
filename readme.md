@@ -2,7 +2,7 @@
 Web application for 2018 world cup fixtures with up-to-date results.
 
 ## Credits
-- https://github.com/tinhtun/fifawc (Frontend UI)
+- https://github.com/hasinhayder/fifawc (Frontend UI)
 - https://github.com/lsv/fifa-worldcup-2018 (Data Provider)
 - https://github.com/mapmeld/myanmar-numbers-js (Myanmar Number Converter)
 
